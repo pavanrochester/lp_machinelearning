@@ -5,7 +5,7 @@ st.info('This is a machine learning app')
 st.write('**Raw Data**')
 
 
-with st.expander('Data'):
+with st.expander('**Data**'):
   df=pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
   df
   
@@ -17,7 +17,7 @@ with st.expander('Data'):
   Y=df.species
   Y
 
-with st.expander('**data Visualisation**'):
+with st.expander('**Data Visualisation**'):
   st.scatter_chart(data=df,x='bill_length_mm',y='body_mass_g',color='species')
 
 
@@ -44,7 +44,7 @@ input_df
 input_penguins=pd.concat([input_df,X],axis=0)
 
 with st.expander('Input Features'):
-  st.write('Input Features')
+  st.write('**Input penguin**')
       
   
   
