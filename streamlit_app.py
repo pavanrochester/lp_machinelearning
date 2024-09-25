@@ -33,7 +33,7 @@ with st.sidebar:
 
 
 #creating data frame for the input features
-date={'island':island,
+data={'island':island,
       'gender':gender,
       'bill_length_mm': bill_length_mm,
       'bill_depth_mm':bill_depth_mm,
@@ -41,6 +41,7 @@ date={'island':island,
       'body_mass_g':body_mass_g}
 input_df=pd.DataFrame(data,index=[0])
 input_df
+input_penguins=pd.concat(
       
   
   
