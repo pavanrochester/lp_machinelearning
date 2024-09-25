@@ -33,11 +33,11 @@ with st.sidebar:
 
 
 #creating data frame for the input features
-date={'island':island
-      'gender':gender
-      'bill_length_mm': bill_length_mm
-      'bill_depth_mm':bill_depth_mm
-      'flipper_length_mm':flipper_length_mm
+date={'island':island,
+      'gender':gender,
+      'bill_length_mm': bill_length_mm,
+      'bill_depth_mm':bill_depth_mm,
+      'flipper_length_mm':flipper_length_mm,
       'body_mass_g':body_mass_g}
 input_df=pd.dataframe(data,index=[0])
       
