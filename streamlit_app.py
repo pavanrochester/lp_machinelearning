@@ -41,7 +41,7 @@ data={'island':island,
       'body_mass_g':body_mass_g}
 input_df=pd.DataFrame(data,index=[0])
 input_df
-input_penguins=pd.concat(
+input_penguins=pd.concat([input_df,X],axis=0)
       
   
   
