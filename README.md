@@ -7,7 +7,7 @@ Description of the app ...
 
 ## Demo App(machinelearning app
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://lp_machinelearning.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://lpmachinelearning.streamlit.app/)
 
 ## GitHub Codespaces
 
