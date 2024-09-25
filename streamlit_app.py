@@ -19,3 +19,10 @@ with st.expander('Data'):
 
 with st.expander('data Visualisation'):
   st.scatter_chart(data=df,x='bill_length_mm',y='body_mass_g',color='species')
+
+
+#data prep
+with st.sidedar:
+  st.header('Input features')
+  
+  
