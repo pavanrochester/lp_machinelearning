@@ -22,7 +22,7 @@ with st.expander('data Visualisation'):
 
 
 #data prep
-with st.sidedar:
+with st.sidebar:
   st.header('Input features')
   
   
