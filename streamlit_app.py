@@ -8,5 +8,5 @@ df=pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/peng
 df
 
 st.write('**X**')
-X=df.drop('Species',axis=1)
+X=df.drop('species',axis=1)
 X
